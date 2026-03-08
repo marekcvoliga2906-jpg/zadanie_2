@@ -36,7 +36,8 @@ https://templatemo.com/tm-609-crypto-vault
 
     <!-- Sidebar Overlay -->
     <div class="sidebar-overlay" id="sidebarOverlay"></div>
-
+    
+    
     <div class="dashboard">
         <!-- Sidebar -->
         <aside class="sidebar" id="sidebar">
@@ -116,6 +117,10 @@ https://templatemo.com/tm-609-crypto-vault
             <!-- Header -->
             <div class="header">
                 <div class="header-left">
+                    <?php
+                    echo "<h1>Zdravím vás používateľ!</h1>";
+                    echo '<p class="header-subtitle">Dnes je ' . date(format: "d.m.Y") . ' | Aktuálny čas je ' . date(format: "H:i:s") . '</p>';
+                    ?>
                     <h1>Dashboard</h1>
                     <p class="header-subtitle">Welcome back! Here's your portfolio overview.</p>
                 </div>
